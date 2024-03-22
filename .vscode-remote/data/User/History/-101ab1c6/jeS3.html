@@ -1,0 +1,149 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block page %}Home{% endblock %}
+
+{% block link%}
+<ul id="nav-mobile" class="right">
+    <li><a href="/logout">Logout</a></li>
+</ul>
+{% endblock %}
+
+{% block styles%}
+    .black-text{
+        color:black
+    }
+    .white-text{
+        color:white
+    }
+    td{
+        padding: 2px;
+    }
+
+    .collection .collection-item.active{
+        background-color: #E53935;
+        
+    }
+    .short-input {
+        width: 100px; /* Set the desired width for the input field */
+    }
+    .form-row {
+        display: flex;
+        align-items: center;
+    }
+    ul li {
+         /* Add padding between list items */
+        /* OR */
+        margin-bottom: 16px; /* Add margin below each list item */
+    }
+    li {
+        margin-bottom: 10px; /* Adjust the value to set the desired gap */
+    }
+    .pad {
+        margin-top: 16px; /* Add margin to the bottom of the table row */
+    }
+    #pokemon-table th {
+        padding: 20px; /* Adjust the padding value as needed */
+    }
+    
+    #pokemon-table td {
+        padding: 20px; /* Adjust the padding value as needed */
+    }
+    #pokemon-table tr {
+        margin-bottom: 20px; /* Adjust the margin-bottom value as needed */
+    }
+{% endblock %}
+
+
+{% block content %}
+<div class="row">
+    <div class="col m3 list-container collection" style="max-height: 88vh;">
+        {% if all_pokemon %}
+        <ul class="">
+            {% for pokemon in all_pokemon %}
+                <li class="collection-item {% if pokemon.pokemon_id == poke %} active white-text{% else %} black-text{% endif %}"><a class=" {% if pokemon.pokemon_id == poke %}active white-text{% else %} black-text{% endif %}" href="/app/{{ pokemon.pokemon_id}}">{{ pokemon.name }}</a></li>
+            {% endfor %}
+        </ul>
+   
+    {% endif %}
+  
+    </div>
+    
+    <div class="col m3">
+
+            <p class="text-center">Selected Pokemon</p>
+
+            <div id="pokemon-detail">
+                
+                {% if poke %}
+                    <img width="350" height="320" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{poke}}.png"
+                {% endif %}
+                <ul class="pad">
+                    <li>Name: {{ all_pokemon[0].name }}</li>
+                    <li>Attack: {{ all_pokemon[0].attack }}</li>
+                    <li>Type1: {{all_pokemon[0].type1}}</li>
+                    <li>Type2: {{all_pokemon[0].type2}}</li>
+                    <li>Weight: {{all_pokemon[0].weight}}</li>
+                    <li>Height: {{all_pokemon[0].height}}</li>
+                    <!-- Add more details as needed -->
+                </ul>
+                <form id="capturePokemon" method="POST" action="/pokemon/{{poke}}" style="padding:1em">
+                    <div class="input-field col s12">
+                        <input placeholder="pokemonname" name="name" type="text" class="">
+                        <label for="name"></label>
+                      </div>
+                      <div class="col s3 card-action left-align">
+                        <input type="submit" class="red text-white btn" value="capture Pokemon">
+                      </div>
+                </form>
+           
+            </div>
+
+    </div>
+
+    <div class="col m6" >
+        <p class="text-center">Your Pokemon</p>
+        <table class="responsive-table" id="pokemon-table">
+            <thead>
+                <tr>
+                    <th>Pokemon</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if mypokes %}
+                    {% for pokemon in mypokes %}
+                        <tr class="">
+                            <td>{{ pokemon.species }}</td> <!-- Display the Pokemon ID -->
+                            <td>{{ pokemon.name }}</td> <!-- Display the Pokemon Name -->
+                            <td class="form-row"> <!-- Actions column -->
+                                <form class="form-row" id="renamePokemon" method="POST" action="/rename-pokemon/{{pokemon.id}}" style="padding:1em">
+                                    <div class="form-row">
+                                        <input class="short-input" name="name" type="text" class="">
+                                        <input class="red text-white btn" type="submit" class="active collection-item text-white btn" value="Rename">
+                                      </div>
+                                    
+                                </form>
+                                <form class="m3" id="releasePokemon" method="GET" action="/release-pokemon/{{pokemon.id}}" style="padding:1em">
+                                    
+                                       
+                                        <input class="red text-white btn" type="submit" class="active collection-item text-white btn" value="Release">
+                                    
+                                    
+                                </form>
+                                <!-- Add action buttons here -->
+                            </td>
+                        </tr>
+                    {% endfor %}
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+
+{% endblock %}

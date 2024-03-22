@@ -1,0 +1,70 @@
+2024-03-17 14:03:44.175 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "3"
+
+2024-03-17 14:03:44.175 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2"
+
+2024-03-17 14:03:44.176 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "4"
+
+2024-03-17 14:03:44.182 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "6"
+
+2024-03-17 14:07:05.712 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "14"
+
+2024-03-17 14:07:10.175 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "17"
+
+2024-03-17 14:09:02.721 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "71"
+
+2024-03-17 14:09:03.823 [info] ERROR:pygls.protocol:Failed to handle request 75 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///workspace/info2602a2/App/app.py'), range=121:15-121:15, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+
+2024-03-17 14:09:03.825 [info] [Error - 2:09:03 PM] Request textDocument/codeAction failed.
+2024-03-17 14:09:03.825 [info]   Message: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+2024-03-17 14:09:05.209 [info] ERROR:pygls.protocol:Failed to handle request 78 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///workspace/info2602a2/App/app.py'), range=121:15-121:15, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+
+2024-03-17 14:09:05.209 [info] [Error - 2:09:05 PM] Request textDocument/codeAction failed.
+2024-03-17 14:09:05.209 [info]   Message: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+2024-03-17 14:09:39.823 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "84"
+
+2024-03-17 14:11:31.165 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "123"
+
+2024-03-17 14:13:15.698 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "152"
+
+2024-03-17 14:14:16.343 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "166"
+

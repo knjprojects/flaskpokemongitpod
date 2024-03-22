@@ -1,0 +1,339 @@
+2024-03-21 01:20:00.322 [info] Extension host with pid 945 started
+2024-03-21 01:20:00.331 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/200eb553/vscode.lock': Lock acquired.
+2024-03-21 01:20:01.390 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-03-21 01:20:01.390 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-03-21 01:20:01.391 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-21 01:20:01.391 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onWebviewPanel:simpleBrowser.view'
+2024-03-21 01:20:02.427 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-21 01:20:02.428 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2024-03-21 01:20:02.555 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-03-21 01:20:04.102 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-21 01:20:04.102 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-21 01:20:04.554 [info] Eager extensions activated
+2024-03-21 01:20:04.555 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 01:20:04.555 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 01:20:04.555 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-03-21 01:20:05.511 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 01:20:07.207 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2024-03-21 01:20:09.520 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:09.521 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:10.924 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:13.350 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:13.630 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:16.325 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:17.170 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:17.186 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:17.196 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:17.222 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:17.224 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-03-21 01:20:17.806 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-21 01:20:17.806 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-21 01:41:27.644 [error] [ms-python.python] provider FAILED
+2024-03-21 01:41:27.649 [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, <String: 'list-mypokemon'>, <Operator: )>]) is not in list
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-21 01:50:02.330 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-03-21 03:58:18.242 [error] [ms-python.python] provider FAILED
+2024-03-21 03:58:18.242 [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-21 04:12:02.636 [error] [ms-python.python] provider FAILED
+2024-03-21 04:12:02.637 [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-21 04:15:22.369 [error] [vscode.emmet] provider FAILED
+2024-03-21 04:15:22.369 [error] Error: Unable to find matching pair for { at char 1565
+	at r.error (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:22191)
+	at f (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:21421)
+	at u (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:14499)
+	at l (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /ide/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at S (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at I (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.getRootNode (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:145506)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:130606)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/ide/extensions/emmet/dist/node/emmetNodeMain.js:1:129384)
+	at re.provideCompletionItems (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:107731)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:150:130285
+	at Oe.s (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:121613)
+	at Oe.$provideCompletionItems (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:130271)
+	at s.S (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:5519)
+	at s.Q (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:5285)
+	at s.M (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:4337)
+	at s.L (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:3454)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:2241)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:8050)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at u.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:17156)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:15608)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at b.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11865)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11152)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:170:19748)
+2024-03-21 04:28:02.729 [error] [ms-python.python] provider FAILED
+2024-03-21 04:28:02.729 [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-21 04:40:33.908 [info] Extension host terminating: received terminate message from renderer
+2024-03-21 04:40:33.909 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/200eb553/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-21 04:40:33.943 [error] Canceled: Canceled
+	at new $ (/ide/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184303)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at f.registerCommand.description (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183065)
+	at u.h (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184842)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183834)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at Object.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at b.O [as value] (/ide/extensions/git/dist/main.js:2:943479)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/ide/extensions/git/dist/main.js:2:962791)
+	at /ide/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/ide/extensions/git/dist/main.js:2:968811)
+	at l.<anonymous> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at l.dispose (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at l.<anonymous> (/ide/extensions/git/dist/main.js:2:945736)
+	at l.dispose (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/ide/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at b.cb (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at b.Y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at b.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:7996)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at u.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:17156)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:15608)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at b.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11865)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11152)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:170:19748) setContext undefined
+2024-03-21 04:40:33.944 [error] Canceled: Canceled
+	at new $ (/ide/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184303)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at f.registerCommand.description (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183065)
+	at u.h (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184842)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183834)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at Object.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/ide/extensions/github/dist/extension.js:2:325214)
+	at /ide/extensions/github/dist/extension.js:2:326173
+	at b.value (/ide/extensions/git/dist/main.js:2:1050811)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/ide/extensions/git/dist/main.js:2:962791)
+	at /ide/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/ide/extensions/git/dist/main.js:2:968811)
+	at l.<anonymous> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at l.dispose (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at l.<anonymous> (/ide/extensions/git/dist/main.js:2:945736)
+	at l.dispose (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/ide/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at b.cb (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at b.Y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at b.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:7996)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at u.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:17156)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:15608)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at b.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11865)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11152)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:170:19748) setContext undefined
+2024-03-21 04:40:33.946 [error] Canceled: Canceled
+	at new $ (/ide/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184303)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at f.registerCommand.description (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183065)
+	at u.h (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184842)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183834)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at Object.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at e (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:1968:1467)
+	at Object.n [as setContext] (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:1968:1582)
+	at Bp.updateActiveReviewCount (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2031:22909)
+	at Bp.removeRepo (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2031:24054)
+	at b.value (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2144:4217)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at b.value (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:1936:446993)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2031:27770
+	at b.value (/ide/extensions/git/dist/main.js:2:1050811)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/ide/extensions/git/dist/main.js:2:962791)
+	at /ide/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/ide/extensions/git/dist/main.js:2:968811)
+	at l.<anonymous> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at l.dispose (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at l.<anonymous> (/ide/extensions/git/dist/main.js:2:945736)
+	at l.dispose (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/ide/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at b.cb (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at b.Y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at b.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:7996)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at u.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:17156)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:15608)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at b.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11865)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11152)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:170:19748) setContext undefined
+2024-03-21 04:40:33.947 [error] Canceled: Canceled
+	at new $ (/ide/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184303)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at f.registerCommand.description (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183065)
+	at u.h (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184842)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183834)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at Object.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at e (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:1968:1467)
+	at Object.n [as setContext] (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:1968:1582)
+	at Am.setReviewModeContexts (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2131:14280)
+	at Am.removePrFromView (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2131:14907)
+	at Wc.clear (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2012:26101)
+	at Wc.dispose (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2014:167)
+	at Um.removeReviewManager (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2131:45823)
+	at b.value (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2144:4235)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at b.value (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:1936:446993)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2031:27770
+	at b.value (/ide/extensions/git/dist/main.js:2:1050811)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/ide/extensions/git/dist/main.js:2:962791)
+	at /ide/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/ide/extensions/git/dist/main.js:2:968811)
+	at l.<anonymous> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at l.dispose (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at l.<anonymous> (/ide/extensions/git/dist/main.js:2:945736)
+	at l.dispose (/ide/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/ide/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at b.cb (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at b.Y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at b.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:7996)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at u.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:17156)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:15608)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at b.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11865)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11152)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:170:19748) setContext undefined
+2024-03-21 04:40:33.947 [error] Canceled: Canceled
+	at new $ (/ide/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/ide/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184303)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at f.registerCommand.description (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183065)
+	at u.h (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:184842)
+	at u.g (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183834)
+	at u.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:183741)
+	at Object.executeCommand (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at S2.reset (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2131:7888)
+	at S2.dispose (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal/dist/extension.js:2131:8159)
+	at o (/ide/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at b.cb (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at b.Y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at b.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/ide/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:7996)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at u.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:17156)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:15608)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at b.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11865)
+	at b.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:105:11152)
+	at n.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:170:19748) setContext undefined
+2024-03-21 04:40:33.956 [info] Extension host with pid 945 exiting with code 0

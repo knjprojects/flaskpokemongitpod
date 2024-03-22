@@ -1,0 +1,24 @@
+2024-03-19 01:57:42.490 [info] Default formatter is set to null for workspace /workspace/info2602a2
+2024-03-19 01:57:42.501 [info] Test server listening.
+2024-03-19 01:57:42.610 [info] > ~/.pyenv/shims/python -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-19 01:57:42.697 [info] Python interpreter path: ~/.pyenv/shims/python
+2024-03-19 01:57:45.243 [info] Starting Jedi language server for info2602a2.
+2024-03-19 02:07:38.095 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:07:45.387 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:12.230 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:21.907 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:24.679 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:27.211 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:30.646 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:33.289 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:35.908 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:40.025 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:43.058 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:46.542 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:23:49.943 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:24:17.041 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:24:30.089 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:24:44.881 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:24:47.828 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:24:52.464 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-19 02:25:28.334 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py

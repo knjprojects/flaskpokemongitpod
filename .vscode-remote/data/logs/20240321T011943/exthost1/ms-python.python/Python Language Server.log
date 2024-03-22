@@ -1,0 +1,374 @@
+2024-03-21 01:20:11.050 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+
+2024-03-21 01:20:26.934 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "13"
+
+2024-03-21 01:21:19.661 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "27"
+
+2024-03-21 01:25:14.063 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "79"
+
+2024-03-21 01:30:22.833 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "306"
+
+2024-03-21 01:30:45.912 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "318"
+
+2024-03-21 01:31:03.750 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "326"
+
+2024-03-21 01:31:04.902 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "329"
+
+2024-03-21 01:31:15.475 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "338"
+
+2024-03-21 01:31:25.816 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "349"
+
+2024-03-21 01:32:20.408 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "427"
+
+2024-03-21 01:32:39.040 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "433"
+
+2024-03-21 01:32:48.047 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "438"
+
+2024-03-21 01:35:11.005 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "491"
+
+2024-03-21 01:36:10.121 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "552"
+
+2024-03-21 01:36:13.917 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "565"
+
+2024-03-21 01:37:49.431 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "600"
+
+2024-03-21 01:37:49.432 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "601"
+
+2024-03-21 01:37:49.436 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "602"
+
+2024-03-21 01:37:49.440 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "603"
+
+2024-03-21 01:38:40.590 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "692"
+
+2024-03-21 01:38:43.320 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "701"
+
+2024-03-21 01:38:43.719 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "702"
+
+2024-03-21 01:38:44.069 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "704"
+
+2024-03-21 01:39:05.110 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "709"
+
+2024-03-21 01:39:55.460 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "761"
+
+2024-03-21 01:39:55.461 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "762"
+
+2024-03-21 01:40:02.561 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "781"
+
+2024-03-21 01:40:09.406 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "801"
+
+2024-03-21 01:41:27.642 [info] ERROR:pygls.protocol:Failed to handle request 837 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///workspace/info2602a2/wsgi.py'), range=19:34-19:34, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, <String: 'list-mypokemon'>, <Operator: )>]) is not in list
+
+2024-03-21 01:41:27.644 [info] [Error - 1:41:27 AM] Request textDocument/codeAction failed.
+2024-03-21 01:41:27.644 [info]   Message: ValueError: PythonNode(trailer, [<Operator: (>, <String: 'list-mypokemon'>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+2024-03-21 01:42:27.580 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "925"
+
+2024-03-21 01:42:34.285 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "950"
+
+2024-03-21 01:43:46.410 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1004"
+
+2024-03-21 01:44:01.374 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1020"
+
+2024-03-21 01:57:39.546 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1144"
+
+2024-03-21 01:57:39.811 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1145"
+
+2024-03-21 01:57:40.069 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1146"
+
+2024-03-21 01:58:00.329 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1162"
+
+2024-03-21 01:58:03.103 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1174"
+
+2024-03-21 01:58:08.964 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1184"
+
+2024-03-21 01:58:09.810 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1189"
+
+2024-03-21 01:58:16.178 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1197"
+
+2024-03-21 01:58:22.741 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1216"
+
+2024-03-21 01:58:29.637 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1232"
+
+2024-03-21 01:58:29.725 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1233"
+
+2024-03-21 01:58:31.176 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1239"
+
+2024-03-21 01:58:33.692 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1248"
+
+2024-03-21 01:58:42.811 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1260"
+
+2024-03-21 01:59:04.032 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1263"
+
+2024-03-21 02:00:02.656 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1276"
+
+2024-03-21 02:00:25.538 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1282"
+
+2024-03-21 02:02:12.651 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1295"
+
+2024-03-21 02:02:58.352 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1311"
+
+2024-03-21 02:02:58.560 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1312"
+
+2024-03-21 02:12:48.642 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1349"
+
+2024-03-21 02:12:54.364 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1353"
+
+2024-03-21 02:14:51.525 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1384"
+
+2024-03-21 02:14:53.035 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1386"
+
+2024-03-21 02:16:00.434 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1387"
+
+2024-03-21 02:16:00.648 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1388"
+
+2024-03-21 02:16:17.515 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1397"
+
+2024-03-21 02:17:03.173 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1406"
+
+2024-03-21 02:17:51.824 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1416"
+
+2024-03-21 02:18:03.619 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1427"
+
+2024-03-21 02:18:05.034 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1429"
+
+2024-03-21 02:36:06.690 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1454"
+
+2024-03-21 02:37:34.547 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1486"
+
+2024-03-21 02:37:34.567 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1487"
+
+2024-03-21 02:38:01.988 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1520"
+
+2024-03-21 02:38:16.685 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1575"
+
+2024-03-21 02:43:40.977 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1614"
+
+2024-03-21 02:45:04.395 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1620"
+
+2024-03-21 02:45:59.679 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1624"
+
+2024-03-21 02:56:15.997 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1638"
+
+2024-03-21 02:57:09.102 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1649"
+
+2024-03-21 03:03:48.832 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1660"
+
+2024-03-21 03:04:50.590 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1671"
+
+2024-03-21 03:07:07.496 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1713"
+
+2024-03-21 03:07:16.470 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1723"
+
+2024-03-21 03:08:59.117 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1824"
+
+2024-03-21 03:09:03.092 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1827"
+
+2024-03-21 03:09:03.962 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1831"
+
+2024-03-21 03:09:04.301 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1833"
+
+2024-03-21 03:09:08.318 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1842"
+
+2024-03-21 03:09:13.157 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1855"
+
+2024-03-21 03:13:38.328 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1888"
+
+2024-03-21 03:14:23.904 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1922"
+
+2024-03-21 03:16:01.090 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1930"
+
+2024-03-21 03:16:06.420 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1945"
+
+2024-03-21 03:16:53.239 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1986"
+
+2024-03-21 03:26:25.968 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2000"
+
+2024-03-21 03:26:38.188 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2004"
+
+2024-03-21 03:50:20.264 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2009"
+
+2024-03-21 03:51:45.831 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2018"
+
+2024-03-21 03:52:36.674 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2027"
+
+2024-03-21 03:53:23.424 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2049"
+
+2024-03-21 03:54:13.919 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2065"
+
+2024-03-21 03:54:18.813 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2079"
+
+2024-03-21 03:54:18.862 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2080"
+
+2024-03-21 03:54:28.640 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2098"
+
+2024-03-21 03:54:57.923 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2162"
+
+2024-03-21 03:55:04.688 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2178"
+
+2024-03-21 03:55:14.630 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2206"
+
+2024-03-21 03:55:17.992 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2218"
+
+2024-03-21 03:55:21.486 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2229"
+
+2024-03-21 03:55:47.359 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2259"
+
+2024-03-21 03:56:03.494 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2273"
+
+2024-03-21 03:56:31.811 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2300"
+
+2024-03-21 03:56:43.974 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2308"
+
+2024-03-21 03:56:44.194 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2309"
+
+2024-03-21 03:56:44.620 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2310"
+
+2024-03-21 03:56:48.153 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2316"
+
+2024-03-21 03:57:05.426 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2334"
+
+2024-03-21 03:57:14.146 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2343"
+
+2024-03-21 03:57:18.154 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2349"
+
+2024-03-21 03:57:23.149 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2364"
+
+2024-03-21 03:57:26.744 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2365"
+
+2024-03-21 03:58:11.434 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2382"
+
+2024-03-21 03:58:12.050 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2387"
+
+2024-03-21 03:58:14.237 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2400"
+
+2024-03-21 03:58:14.578 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2402"
+
+2024-03-21 03:58:15.623 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2405"
+
+2024-03-21 03:58:16.086 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2408"
+
+2024-03-21 03:58:16.285 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2410"
+
+2024-03-21 03:58:16.550 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2411"
+
+2024-03-21 03:58:16.622 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2412"
+
+2024-03-21 03:58:18.241 [info] ERROR:pygls.protocol:Failed to handle request 2416 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///workspace/info2602a2/App/app.py'), range=209:15-209:15, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+
+2024-03-21 03:58:18.242 [info] [Error - 3:58:18 AM] Request textDocument/codeAction failed.
+2024-03-21 03:58:18.242 [info]   Message: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+2024-03-21 03:58:21.684 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2424"
+
+2024-03-21 03:58:39.360 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2433"
+
+2024-03-21 04:01:01.665 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2441"
+
+2024-03-21 04:01:46.576 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2470"
+
+2024-03-21 04:01:58.193 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2483"
+
+2024-03-21 04:02:09.796 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2510"
+
+2024-03-21 04:02:13.312 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2514"
+
+2024-03-21 04:02:15.891 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2519"
+
+2024-03-21 04:02:41.525 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2562"
+
+2024-03-21 04:02:51.171 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2568"
+
+2024-03-21 04:03:14.239 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2572"
+
+2024-03-21 04:03:42.005 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2606"
+
+2024-03-21 04:04:14.692 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2611"
+
+2024-03-21 04:12:02.636 [info] ERROR:pygls.protocol:Failed to handle request 2638 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///workspace/info2602a2/App/app.py'), range=222:15-222:15, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+
+2024-03-21 04:12:02.636 [info] [Error - 4:12:02 AM] Request textDocument/codeAction failed.
+2024-03-21 04:12:02.636 [info]   Message: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+2024-03-21 04:28:02.728 [info] ERROR:pygls.protocol:Failed to handle request 2640 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///workspace/info2602a2/App/app.py'), range=222:15-222:15, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+
+2024-03-21 04:28:02.729 [info] [Error - 4:28:02 AM] Request textDocument/codeAction failed.
+2024-03-21 04:28:02.729 [info]   Message: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+2024-03-21 04:28:04.556 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2643"
+

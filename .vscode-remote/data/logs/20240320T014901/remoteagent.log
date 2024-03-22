@@ -1,0 +1,17 @@
+2024-03-20 01:49:01.087 [info] 
+
+
+
+
+2024-03-20 01:49:01.103 [info] Extension host agent started.
+2024-03-20 01:49:01.165 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-03-20 01:49:01.165 [info] Extension 'github.vscode-pull-request-github' v0.82.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-03-20 01:49:01.165 [info] Installing extensions...
+2024-03-20 01:49:01.180 [info] Extension 'ms-python.python' v2024.2.1 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ms-python.python@1.2.3'.
+2024-03-20 01:49:01.180 [info] Extension 'alexcvzz.vscode-sqlite' v0.14.1 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'alexcvzz.vscode-sqlite@1.2.3'.
+2024-03-20 01:49:06.748 [info] [192.168.50.137][798209bb][ManagementConnection] New connection established.
+2024-03-20 01:49:07.135 [info] [192.168.177.11][08a121f8][ExtensionHostConnection] New connection established.
+2024-03-20 01:49:07.446 [warning] Skipping extension /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2024-03-20 01:49:07.707 [info] [192.168.177.11][08a121f8][ExtensionHostConnection] <936> Launched Extension Host Process.
+2024-03-20 04:23:39.179 [info] [192.168.50.137][798209bb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-20 04:23:39.243 [info] [192.168.177.11][08a121f8][ExtensionHostConnection] <936> Extension Host Process exited with code: 0, signal: null.

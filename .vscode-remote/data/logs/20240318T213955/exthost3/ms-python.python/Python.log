@@ -1,0 +1,12 @@
+2024-03-18 23:25:16.122 [info] Default formatter is set to null for workspace /workspace/info2602a2
+2024-03-18 23:25:16.122 [info] Test server listening.
+2024-03-18 23:25:16.242 [info] > ~/.pyenv/shims/python -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-18 23:25:16.358 [info] Python interpreter path: ~/.pyenv/shims/python
+2024-03-18 23:25:20.294 [info] Starting Jedi language server for info2602a2.
+2024-03-18 23:27:54.359 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-18 23:27:57.611 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-18 23:28:14.399 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-18 23:28:17.284 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-18 23:28:28.779 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-18 23:28:31.201 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-18 23:28:43.264 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py

@@ -1,0 +1,28 @@
+2024-03-22 00:26:49.052 [info] Log level: Info
+2024-03-22 00:26:49.052 [info] Validating found git in: "git"
+2024-03-22 00:26:49.052 [info] Using git "2.37.3" from "git"
+2024-03-22 00:26:49.052 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-22 00:26:49.052 [info] > git rev-parse --git-dir --git-common-dir [57ms]
+2024-03-22 00:26:49.052 [info] Open repository: /workspace/info2602a2
+2024-03-22 00:26:49.052 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-22 00:26:49.052 [info] > git config --get commit.template [10ms]
+2024-03-22 00:26:49.052 [info] > git rev-parse --show-toplevel [8ms]
+2024-03-22 00:26:49.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-22 00:26:49.052 [warning] ENOENT: no such file or directory, open '/workspace/info2602a2/.git/refs/remotes/origin/master'
+2024-03-22 00:26:49.052 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2024-03-22 00:26:49.052 [info] > git rev-parse --show-toplevel [17ms]
+2024-03-22 00:26:49.052 [info] > git status -z -uall [2ms]
+2024-03-22 00:26:49.052 [info] > git config --get commit.template [1ms]
+2024-03-22 00:26:49.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2024-03-22 00:26:49.052 [warning] ENOENT: no such file or directory, open '/workspace/info2602a2/.git/refs/remotes/origin/master'
+2024-03-22 00:26:49.052 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-03-22 00:26:49.052 [info] > git status -z -uall [1ms]
+2024-03-22 00:26:50.110 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-22 00:26:51.026 [info] > git show --textconv :App/templates/home.html [9ms]
+2024-03-22 00:26:51.027 [info] > git ls-files --stage -- /workspace/info2602a2/App/templates/home.html [2ms]
+2024-03-22 00:26:51.036 [info] > git cat-file -s f5f659ee30a005dea2ba6bfcb6372a2ec46f4dc7 [1ms]
+2024-03-22 00:26:52.617 [info] > git show --textconv :App/app.py [13ms]
+2024-03-22 00:26:52.619 [info] > git ls-files --stage -- /workspace/info2602a2/App/app.py [3ms]
+2024-03-22 00:26:52.631 [info] > git cat-file -s 111d9a10cb696d7ebbb8e3968fe209161665014c [2ms]
+2024-03-22 00:26:57.102 [info] > git config --local branch.master.github-pr-owner-number [1ms]
+2024-03-22 00:26:57.102 [warning] git config failed: Failed to execute git

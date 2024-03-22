@@ -1,0 +1,74 @@
+2024-03-17 03:18:39.684 [info] 
+
+
+
+
+2024-03-17 03:18:39.684 [info] Extension host agent started.
+2024-03-17 03:18:39.684 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-03-17 03:18:39.693 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-03-17 03:18:41.072 [info] Installing builtin extension 'gitpod.gitpod-theme'...
+2024-03-17 03:18:41.382 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2024-03-17 03:18:41.404 [info] Getting Manifest... gitpod.gitpod-theme
+2024-03-17 03:18:41.404 [info] Getting Manifest... github.vscode-pull-request-github
+2024-03-17 03:18:42.360 [info] Installing extension: gitpod.gitpod-theme
+2024-03-17 03:18:42.361 [info] Installing extension: github.vscode-pull-request-github
+2024-03-17 03:18:46.132 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-17 03:18:46.133 [info] Extension signature verification is not done: gitpod.gitpod-theme
+2024-03-17 03:18:46.223 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal: gitpod.gitpod-theme
+2024-03-17 03:18:46.225 [info] Renamed to /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal
+2024-03-17 03:18:46.226 [info] Extracting extension completed. gitpod.gitpod-theme
+2024-03-17 03:18:46.238 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-17 03:18:46.239 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-03-17 03:18:46.359 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal: github.vscode-pull-request-github
+2024-03-17 03:18:46.364 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal
+2024-03-17 03:18:46.418 [info] Extracting extension completed. github.vscode-pull-request-github
+2024-03-17 03:18:46.425 [info] Extension installed successfully: gitpod.gitpod-theme
+2024-03-17 03:18:46.425 [info] Extension installed successfully: github.vscode-pull-request-github
+2024-03-17 03:18:46.426 [info] Extension 'gitpod.gitpod-theme' v0.0.2 was successfully installed.
+2024-03-17 03:18:46.426 [info] Extension 'github.vscode-pull-request-github' v0.82.0 was successfully installed.
+2024-03-17 03:18:46.426 [info] Installing extensions...
+2024-03-17 03:18:47.195 [info] Installing extension 'alexcvzz.vscode-sqlite'...
+2024-03-17 03:18:47.502 [info] Installing extension 'ms-python.python'...
+2024-03-17 03:18:47.503 [info] Getting Manifest... alexcvzz.vscode-sqlite
+2024-03-17 03:18:47.503 [info] Getting Manifest... ms-python.python
+2024-03-17 03:18:47.869 [info] [192.168.177.11][4a0e7fdd][ManagementConnection] New connection established.
+2024-03-17 03:18:48.456 [info] Installing extension: alexcvzz.vscode-sqlite
+2024-03-17 03:18:48.457 [info] Installing extension: ms-python.python
+2024-03-17 03:18:48.758 [info] Getting Manifest... ms-python.debugpy
+2024-03-17 03:18:49.643 [info] Installing extension: ms-python.debugpy
+2024-03-17 03:18:50.970 [warning] Skipping extension /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2024-03-17 03:18:51.557 [info] [192.168.50.137][e04b6926][ExtensionHostConnection] New connection established.
+2024-03-17 03:18:51.564 [info] [192.168.50.137][e04b6926][ExtensionHostConnection] <1138> Launched Extension Host Process.
+2024-03-17 03:18:53.324 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-17 03:18:53.325 [info] Extension signature verification is not done: alexcvzz.vscode-sqlite
+2024-03-17 03:18:53.436 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/alexcvzz.vscode-sqlite-0.14.1-universal: alexcvzz.vscode-sqlite
+2024-03-17 03:18:53.439 [info] Renamed to /workspace/.vscode-remote/extensions/alexcvzz.vscode-sqlite-0.14.1-universal
+2024-03-17 03:18:53.441 [info] Extracting extension completed. alexcvzz.vscode-sqlite
+2024-03-17 03:18:54.170 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-17 03:18:54.170 [info] Extension signature verification is not done: ms-python.debugpy
+2024-03-17 03:18:54.564 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/ms-python.debugpy-2024.2.0-linux-x64: ms-python.debugpy
+2024-03-17 03:18:54.567 [info] Renamed to /workspace/.vscode-remote/extensions/ms-python.debugpy-2024.2.0-linux-x64
+2024-03-17 03:18:54.569 [info] Extracting extension completed. ms-python.debugpy
+2024-03-17 03:18:55.459 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-17 03:18:55.459 [info] Extension signature verification is not done: ms-python.python
+2024-03-17 03:18:57.765 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal: ms-python.python
+2024-03-17 03:18:57.773 [info] Renamed to /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal
+2024-03-17 03:18:57.777 [info] Extracting extension completed. ms-python.python
+2024-03-17 03:18:57.783 [info] Extension installed successfully: alexcvzz.vscode-sqlite
+2024-03-17 03:18:57.783 [info] Extension installed successfully: ms-python.debugpy
+2024-03-17 03:18:57.784 [info] Extension installed successfully: ms-python.python
+2024-03-17 03:18:57.786 [info] Extension 'alexcvzz.vscode-sqlite' v0.14.1 was successfully installed.
+2024-03-17 03:18:57.786 [info] Extension 'ms-python.debugpy' v2024.2.0 was successfully installed.
+2024-03-17 03:18:57.786 [info] Extension 'ms-python.python' v2024.2.1 was successfully installed.
+2024-03-17 03:37:37.527 [info] [192.168.177.11][4a0e7fdd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-17 03:37:37.906 [info] [192.168.50.137][e04b6926][ExtensionHostConnection] <1138> Extension Host Process exited with code: 0, signal: null.

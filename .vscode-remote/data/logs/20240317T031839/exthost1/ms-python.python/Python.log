@@ -1,0 +1,100 @@
+2024-03-17 03:19:02.641 [info] Default formatter is set to null for workspace /workspace/info2602a2
+2024-03-17 03:19:02.641 [info] Test server listening.
+2024-03-17 03:19:02.641 [info] > conda info --json
+2024-03-17 03:19:02.642 [info] Found: /bin/python2 --> /bin/python2.7
+2024-03-17 03:19:02.642 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-03-17 03:19:02.648 [info] Found: /bin/python3 --> /bin/python3.8
+2024-03-17 03:19:02.649 [info] Found: /bin/python3.8 --> /bin/python3.8
+2024-03-17 03:19:02.661 [info] > ~/.pyenv/versions/3.8.16/bin/python -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-17 03:19:02.670 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-03-17 03:19:02.670 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-03-17 03:19:02.670 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2024-03-17 03:19:02.671 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2024-03-17 03:19:02.698 [info] > /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-17 03:19:02.704 [warning] [Error: Command failed: /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:419:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py'
+}
+2024-03-17 03:19:02.704 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-03-17 03:19:02.710 [info] > /bin/python2 /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-17 03:19:02.719 [info] > /bin/python3 -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-17 03:19:02.733 [info] > /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-17 03:19:02.737 [warning] [Error: Command failed: /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:419:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py'
+}
+2024-03-17 03:19:02.737 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-03-17 03:19:02.745 [info] > /usr/bin/python2 /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-17 03:19:02.757 [info] > /usr/bin/python3 -I /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-17 03:19:02.797 [info] Python interpreter path: ~/.pyenv/versions/3.8.16/bin/python
+2024-03-17 03:19:02.980 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:02.980 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-17 03:19:03.116 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-17 03:19:03.235 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.235 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-17 03:19:03.967 [info] Starting Jedi language server for info2602a2.
+2024-03-17 03:25:24.713 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:25:30.404 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:25:33.815 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:25:39.716 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:25:42.730 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:25:56.094 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:00.703 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:16.143 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:20.723 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:30.739 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:42.746 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:44.597 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:46.790 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:54.844 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:28:56.288 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:03.696 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:05.929 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:08.404 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:10.081 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:12.736 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:17.210 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:19.801 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:24.826 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:27.868 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:30:28.873 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:31:45.169 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:31:48.970 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:31:54.296 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:31:58.548 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:32:01.137 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:32:03.730 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
+2024-03-17 03:32:06.632 [info] Discover tests for workspace name: info2602a2 - uri: /workspace/info2602a2/App/app.py
